@@ -1,0 +1,8 @@
+{
+  "name": "nagi",
+  "description": "全プロジェクト共通の指示と、開発作業のスキル・エージェント",
+  "license": "MIT",
+  "author": {
+    "name": "niigo"
+  }
+}

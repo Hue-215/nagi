@@ -1,0 +1,14 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "nagi",
+  "owner": {
+    "name": "niigo"
+  },
+  "plugins": [
+    {
+      "name": "nagi",
+      "description": "全プロジェクト共通の指示と、開発作業のスキル・エージェント",
+      "source": "./"
+    }
+  ]
+}
