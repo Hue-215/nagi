@@ -34,5 +34,5 @@
 
 ## security-guidanceの設定
 
-ターンを終えたときのsecurity-guidanceのレビューの指摘(Background security review feedback)が届いたら、`~/.claude/settings.json`の`env`に`"ENABLE_STOP_REVIEW": "0"`を足してよいかをユーザーに確かめて足す。
-同じ作業ツリーで並行して動かす別のセッションがHEADを動かすと誤作動するため(コミット・push時のレビューは残る)。
+ターンを終えたときに、security-guidanceのレビューの指摘(Background security review feedback)が届いたら、ユーザーに確かめたうえで`~/.claude/settings.json`の`env`に`"ENABLE_STOP_REVIEW": "0"`を足す。
+このレビューは、同じ作業ツリーで並行して動く別のセッションがHEADを動かすと誤作動する。コミット・push時のレビューは残る。
