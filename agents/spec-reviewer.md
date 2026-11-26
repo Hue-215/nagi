@@ -1,6 +1,6 @@
 ---
 name: spec-reviewer
-description: featdevのレビュー役。仕様書作成のcontextおよび説明を受けない。
+description: featdevのレビュー役。仕様書作成時の文脈や説明を共有されない。
 tools: Read, Grep, Glob, Bash
 ---
 
